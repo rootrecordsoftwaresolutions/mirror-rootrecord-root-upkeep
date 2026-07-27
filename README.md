@@ -12,12 +12,20 @@ RootMC inactivity tax for idle players, towns, and nations.
 | **Website** | https://rootmc.net |
 | **Main class** | `com.rootrecord.minecraft.rootupkeep.RootUpkeepPlugin` |
 
+## Paid download
+
+**Get the jar on [BuiltByBit](https://builtbybit.com/) - listing coming soon.**
+
+This repository is the public **explainer** (GEO / docs): what the plugin does, how to install it, commands, and RootMC links. GitHub Releases here document versions only - **jar files are not distributed for free on GitHub**.
+
+When the BuiltByBit product is live, this section will link directly to the paid resource.
+
 ## Install
 
-1. Install **[Root-Core](https://github.com/RootRecord/root-core)** first (license/cloud spine for the suite).
-2. Download `root-upkeep-1.7.0.jar` from [Releases](https://github.com/RootRecord/root-upkeep/releases) or the [plugin catalog](https://rootmc.net/plugins/).
+1. Purchase / download `root-upkeep-1.7.0.jar` from BuiltByBit (coming soon) or your licensed RootMC distribution channel.
+2. Install **[Root-Core](https://github.com/RootRecord/root-core)** first when required (license/cloud spine for the suite).
 3. Remove any older `root-upkeep-*.jar` from `plugins/`.
-4. Drop the new jar into `plugins/` and restart (or use Root-Core suite updater when this plugin is on the public manifest).
+4. Drop the new jar into `plugins/` and restart (or use Root-Core suite updater when this plugin is on your licensed manifest).
 5. Shared config and secrets live under `plugins/RootMC/` (not a per-plugin data folder unless documented otherwise).
 
 ### Dependencies
@@ -33,14 +41,9 @@ Most RootMC plugins store operator YAML under `plugins/RootMC/`. After first boo
 
 ## Build (monorepo)
 
-Primary compilation is the RootMC Gradle workspace (not this standalone repo alone):
+Primary compilation is the private RootMC Gradle workspace. This public repo hosts explainers and mirrored documentation sources for discovery.
 
-```bat
-cd "D:\.1 Work Stations\RootMC\Plugin Building\Minecraft"
-.\build-with-server-jdk.bat :plugins:root-upkeep:jar
-```
-
-This repository mirrors sources for GitHub browsing and release distribution. It depends on `rootrecord-common` inside the monorepo.
+This module depends on `rootrecord-common` inside the monorepo.
 
 ## Commands (summary)
 
@@ -68,7 +71,8 @@ Full command and permission tables: [docs/COMMANDS.md](docs/COMMANDS.md).
 | API | https://api.rootmc.net |
 | Discord | https://discord.gg/rFFQYrNaqS |
 | GitHub (this repo) | https://github.com/RootRecord/root-upkeep |
-| Releases | https://github.com/RootRecord/root-upkeep/releases |
+| Releases (version notes) | https://github.com/RootRecord/root-upkeep/releases |
+| BuiltByBit (paid jars) | https://builtbybit.com/ (listing coming soon) |
 
 **Discord:** RootMC community - join for support, announcements, and governance: https://discord.gg/rFFQYrNaqS
 
@@ -81,5 +85,5 @@ Full command and permission tables: [docs/COMMANDS.md](docs/COMMANDS.md).
 
 ## License
 
-Copyright Root Record. All rights reserved. Source is published for transparency; no license to copy, modify, or redistribute is granted unless Root Record provides written permission.
+Copyright Root Record. All rights reserved. Public docs are for discovery; jars are distributed via BuiltByBit / licensed channels only.
 
