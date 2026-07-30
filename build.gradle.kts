@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-version = "1.7.0"
+version = "1.7.1"
 
 dependencies {
     implementation("com.mysql:mysql-connector-j:9.2.0")
